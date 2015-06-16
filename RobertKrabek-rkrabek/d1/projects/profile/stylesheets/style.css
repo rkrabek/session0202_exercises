@@ -1,0 +1,29 @@
+    img {
+      border-radius: 50%;
+    }
+    body {
+      text-align: center;
+      background: url("http://images5.alphacoders.com/403/403408.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 18px;
+    }
+    div {
+      background: rgba(0,0,0,.5);
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    .questions{
+      text-align: left;
+    }
