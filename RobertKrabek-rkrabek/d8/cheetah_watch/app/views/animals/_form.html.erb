@@ -1,0 +1,23 @@
+<%= form_for @animal do |f| %>
+	<div>
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+	</div>
+	<div>
+		<%= f.label :region %>
+		<%= f.text_field :region %>
+	</div>
+	<div>
+		<%= f.label :life_expectancy %>
+		<%= f.text_field :life_expectancy %>
+	</div>
+	<div>
+		<%= f.label :conservation_status %>
+		<%= f.text_field :conservation_status %>
+	</div>
+	<div>
+		<%= f.label :rideable %>
+		<%= f.text_field :rideable %>
+	</div>
+	<div><%= f.submit %></div>
+<% end %>
