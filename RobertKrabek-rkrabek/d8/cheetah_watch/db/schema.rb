@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150624081220) do
+ActiveRecord::Schema.define(version: 20150625134420) do
 
   create_table "animals", force: :cascade do |t|
     t.string   "name"
@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(version: 20150624081220) do
     t.boolean  "rideable"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+  end
+
+  create_table "shelters", force: :cascade do |t|
+    t.string   "name"
+    t.string   "location"
+    t.string   "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
