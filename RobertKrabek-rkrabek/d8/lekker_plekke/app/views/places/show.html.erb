@@ -13,4 +13,10 @@
 		<td><%= @place.rating %></td>
 	</tr>
 </table>
+<h2>Comments</h2>
+<%= render @place.comments %>
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
 <%= link_to 'Back', places_path %>
